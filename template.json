@@ -1,5 +1,5 @@
 {
-    "student_id": "학번 또는 이름. 일관되게 하나만",
+    "student_id": "2023130899",
     "name": "음식 이름",
     "image": "images/이미지이름아무거나.png jpg 파일도 가능. (이미지는 images 폴더에 넣어주세요.)",
     "image_prompt": "AI로 만든 이미지에 활용한 프롬프트",
