@@ -1,11 +1,11 @@
 {
-    "recipes": [
+    "beasts": [
         {
             "student_id": "teacher05",
             "name": "면",
             "image": "images/noodle.png",
             "image_prompt": "다음은 면(국수)의 레시피야. 이 레시피에 따라 만들어 지는 국수의 모습을 그림으로 그려줘: 겉메밀을 씻어 너무 많이 말리지 말고 알맞게 말려라. 메밀쌀의 잡것을 가려내고 깨끗이 해서 찧기 전에 미리 물을 뿜어 축축이 해 두어라. 찧을 즈음에 녹두 알갱이의 껍질을 벗겨 깨끗이 씻은 다음 건져 내라. 물이 빠지거든 메밀쌀 다섯 되에 물에 불린 녹두를 한 복자씩 섞어 찧되, 방아를 살살 찧은 후 겉가루를 체로 치고 키로 까불어 키 끝에 흰 부스러기가 나오거든 그것을 모아 나누면 그 가루가 아주 희다. (그 가루로) 면을 반죽할 때에 더운 물에 눅게 반죽하여 누르면 빛이 희고 깨끗한 면이 되느니라. 고명은 세면(실국수)의 고명과 같게 하라.",
-            "ingredients": [
+            "animals": [
                 "메밀",
                 "녹두",
                 "물"
@@ -22,7 +22,7 @@
             "name": "만두",
             "image": "images/dumpling.png",
             "image_prompt": "Photo of a traditional Korean dining setting featuring a serving of freshly cooked dumplings made with buckwheat and mung beans. The dumplings are displayed in a ceramic bowl, highlighting their delicate shapes and the light, golden-brown crust, accompanied by typical Korean side dishes and garnishes resembling those used in semyeon noodles.",
-            "ingredients": [
+            "animals": [
                 "메밀",
                 "무",
                 "꿩고기",
@@ -49,7 +49,7 @@
             "name": "밤설기떡",
             "image": "images/bamseolgi.png",
             "image_prompt": "Photo of a traditional Korean 'Bam Seolgi Tteok' (Chestnut Rice Cake), featuring a soft, chewy texture. The rice cake is made by blending finely ground chestnut flour with glutinous rice flour, creating a delicate and slightly sweet flavor. The tteok is cut into neat, bite-sized rectangular pieces, showcasing a pale, creamy color with visible bits of chestnut embedded throughout, giving a speckled appearance. The surface is glossy, indicating the use of honey or syrup in the mix, and the tteok is arranged neatly on a traditional Korean ceramic plate, garnished with a few whole chestnuts on the side for decoration.",
-            "ingredients": [
+            "animals": [
                 "밤",
                 "찹쌀",
                 "꿀"
