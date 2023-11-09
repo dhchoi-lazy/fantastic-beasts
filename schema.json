@@ -1,0 +1,52 @@
+{
+   "type": "object",
+   "properties": {
+      "student_id": {
+         "type": [
+            "integer",
+            "string"
+         ]
+      },
+      "name": {
+         "type": "string"
+      },
+      "image": {
+         "type": "string",
+         "pattern": "^images\\/.*"
+      },
+      "image_prompt": {
+         "type": "string"
+      },
+      "animals": {
+         "type": "array",
+         "items": {
+            "type": "string",
+            "minItems": 1,
+            "uniqueItems": true
+         }
+      },
+      "original": {
+         "type": "string"
+      },
+      "translated": {
+         "type": "string"
+      },
+      "source": {
+         "type": "string"
+      },
+      "comment": {
+         "type": "string"
+      }
+   },
+   "required": [
+      "student_id",
+      "name",
+      "image",
+      "animals",
+      "original",
+      "translated",
+      "source",
+      "comment"
+   ],
+   "additionalProperties": false
+}
