@@ -1,0 +1,13 @@
+{
+    "student_id": "2023130224",
+    "name": "환",
+    "image": "images/환.png",
+    "image_prompt": "a mouthless sheep",
+    "animals": [
+        "양"
+    ],
+    "original": "有獸焉，其狀如羊而無口，不可殺也，其名曰䍺。",
+    "translated": "환이라고 하는 짐승이 살고 있는데 양처럼 생겼는데 주둥이가 없다. 주둥이가 없어 먹을 수 없는데도 굶어죽지 않는다.",
+    "source": "산해경",
+    "comment": "빙 이미지 크리에이터로 제작함, 한글로 제대로 결과가 나오지 않아 영어를 사용함"
+}
