@@ -11,12 +11,13 @@
          "type": "string"
       },
       "image": {
-         "type": "string"
+         "type": "string",
+         "pattern": "^images\\/.*"
       },
       "image_prompt": {
          "type": "string"
       },
-      "ingredients": {
+      "animals": {
          "type": "array",
          "items": {
             "type": "string",
@@ -41,7 +42,7 @@
       "student_id",
       "name",
       "image",
-      "ingredients",
+      "animals",
       "original",
       "translated",
       "source",
