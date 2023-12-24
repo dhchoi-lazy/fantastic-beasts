@@ -1,0 +1,13 @@
+{
+    "student_id": "송송",
+    "name": "성성",
+    "image": "images/sungsung.png",
+    "image_prompt": "귀가 흰 긴꼬리원숭이를 그려줘",
+    "animals": [
+        "원숭이"
+    ],
+    "original": "有獸焉，其狀如禺而白耳，伏行人走，其名曰狌狌",
+    "translated": "긴꼬리원숭이 같이 생겼는데 귀가 희며, 엎드려 다니다가 사람처럼 달리는데, 그 이름을 성성이라 한다.",
+    "source": "산해경",
+    "comment": "뭘 잡아먹으면 사람처럼 잘 달린다고 한다."
+}

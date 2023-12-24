@@ -1,0 +1,13 @@
+{
+    "student_id": "송송",
+    "name": "금충",
+    "image": "images/gumchung.png",
+    "image_prompt": "짐승처럼 머리에 털이 난 뱀을 그려줘",
+    "animals": [
+        "뱀"
+    ],
+    "original": "有蟲，獸首蛇身，名曰琴蟲。",
+    "translated": "충(蟲)이 있는데，짐승의 머리에 뱀의 몸(獸首蛇身)이고,이름은 금충(琴蟲)이다.",
+    "source": "산해경",
+    "comment": "이름에 벌레가 들어가기 때문에 크기는 크지 않을 것 같다."
+}
