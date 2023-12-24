@@ -1,0 +1,13 @@
+{
+    "student_id": "박서현",
+    "name": "구미호",
+    "image": "images/구미호.png",
+    "image_prompt": "전설 속의 여우를 그려줘. 이 여우는 꼬리가 9개야.",
+    "animals": [
+        "여우"
+    ],
+    "original": "有青丘之國，有狐，九尾。",
+    "translated": "청구국이 있는데 꼬리가 아홉 달린 여우가 산다.",
+    "source": "산해경",
+    "comment": "설화로 잘 알려진 신비로운 동물 중 하나이다."
+}
