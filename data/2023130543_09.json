@@ -1,0 +1,14 @@
+{
+    "student_id": "2023130543_강지안",
+    "name": "비유",
+    "image": "/Users/gangjian/fantastic-beasts/images/비유.jpeg",
+    "image_prompt": "다음은 중국 신화에 나오는 전설의 동물에 대한 설명이야. 이 설명을 보고 상상해서 이 동물을 그려줘: 뱀, 여섯 개의 발과 네 개의 날개를 가졌다",
+    "animals": [
+        "뱀",
+        "새"
+    ],
+    "original": "서산경의 원문을 찾을 수 없었습니다.",
+    "translated": "뱀, 여섯 개의 발과 네 개의 날개를 가졌다",
+    "source": "산해경",
+    "comment": "나타나면 천하가 가문다."
+}
