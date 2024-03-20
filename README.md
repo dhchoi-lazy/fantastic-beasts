@@ -1,3 +1,107 @@
+# Fantastic Beasts in East Asia (English Ver.)
+
+This is the project data upload repository for Introduction to Digital Humanities II, Class 06, College of Liberal Arts, Korea University.
+
+## Overview
+
+- This project is conducted as part of the Introduction to Digital Humanities II, Section 06, College of Liberal Arts, Korea University.
+- The purpose is to learn the usage of digital humanities tools and deepen the understanding of this field.
+- We aim to unearth the **fantastic beasts** of East Asia from historical records and visually realize them through generative AI.
+- The goal of this project is to explore the perception and imagination of nature among East Asians hidden within these fantastic beasts.
+- The list of fantastic beasts that we will likely collect during the fall semester includes:
+  - Shan Hai Jing (山海經)
+  - Yongjae Chonghwa (慵齋叢話)
+- Since the records of fantastic beasts are quite fragmented, it might be better to refer to modern internet resources rather than historical documents. The following websites and web pages can be referred to. Please refer to the [Copyright](#copyright) section below if any copyright issues arise.
+
+  - [Shan Hai Jing original text](https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93)
+  - The complete list of monsters by author Kwak Jae-sik [Monster Encyclopedia](https://oldstory.postype.com/post/1477014)
+  - Yoon Kyu's [Korean Monster Guide](https://blog.naver.com/gkrbdbsgk2)
+  - Waldo King's [Link List of Korean, Eastern, and Western Legends](https://blog.naver.com/ichigeki1028/220931551383)
+
+## How to Contribute to the Project
+
+Everyone who wishes to contribute to the project data is welcome to start contributing after the end of the fall semester.
+
+This project aims to improve students' abilities to use Git/Github, so please contribute in the following ways:
+
+- If you are not familiar with Git or Github, you can learn the basics by referring to [this guide](https://git-scm.com/book/ko/v2).
+- When contributing on Github, you can do so through Pull Requests, referring to [the Pull Request guide](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
+
+### How to Contribute Data
+
+1. Download the `template.json` file and read the description for each field thoroughly. Below is an example of the file:
+
+   ```json
+   {
+     "student_id": "Student ID, Name, Nickname (Please use consistently)",
+     "name": "Name of the fantastic beast. Please avoid creatures based on humans.",
+     "image": "images/your_image_name.png (Please store the image file in the images folder. JPG format is also acceptable.)",
+     "image_prompt": "Prompt used for AI image generation",
+     "animals": ["Inspiration Animal1", "Inspiration Animal2", "Inspiration Animal3"],
+     "original": "Enter the original text here.",
+     "translated": "Enter the translated record here.",
+     "source": "Enter the source of the original text here.",
+     "comment": "Enter any personal thoughts about this fantastic beast or information you want to share with others here."
+   }
+   ```
+   
+#### Detailed Instructions for Data Contribution
+
+- **Student ID (`student_id`)**: Please only use a string format. Use this as the filename when uploading. If the ID already exists, a sequential number will be assigned.
+- **Name of the Mythical Creature (`name`)**: You must enter the name of the creature, not a person's name.
+- **Image (`image`)**: Upload the AI-generated image of the creature to the `images` folder, and the filename must start with `images/`.
+- **Prompt (`image_prompt`)**: Include the prompt used for generating the AI image. While a perfect reproduction is impossible, it helps achieve similar results.
+- **Inspiration Animals (`animals`)**: Write in a list format, and please work with beings other than humans.
+- **Original (`original`)**: Enter the original text here. This will be used for data modification and verification.
+- **Translation (`translated`)**: If in Classical Chinese or ancient Korean, include a translation. A perfect translation is not necessary as the project mainly aims to verify the use of inspiration animals.
+- **Source (`source`)**: Enter the name of the source book. Write in Korean only; Hanja (Chinese characters) notation is not allowed.
+- **Comment (`comment`)**: Enter any noteworthy specifics for reference.
+
+#### Contribution Procedure
+
+1. Copy the `template.json` to the `data` folder and rename it as you wish.
+2. Upload the AI-generated image to the `images` folder. Please avoid duplicate filenames.
+3. Make a commit and write a freeform message.
+4. Create a Pull Request (PR) with the title "Student ID - Name of the Mythical Creature".
+5. Wait for the approval of your PR. An automatic script will verify the format. If rejected, check the message, make corrections, and try again.
+
+## Data Visualization
+
+The results can be viewed in real-time:
+
+**[Go to the Data Visualization Site](https://fantastic-beasts.cola172.store)**
+
+### Precautions:
+
+- **Service Interruptions due to Server Maintenance**: Currently, in the initial phase of the project, access to the service may occasionally be unavailable due to server maintenance.
+
+- **Private Repository**: The code repository for the visualization site is not public.
+
+## Future Plans
+
+- We plan to continue working on the data until a meaningful dataset is built.
+- The ultimate goal is to publish as an academic work through network and statistical analysis.
+
+## Copyright Notice
+
+### Ownership
+
+- The owner of this project is Donghyeok, Choi from the KAIST Graduate School of Culture Technology.
+- The owner holds all legal responsibilities and rights to the project.
+
+### Terms of Use
+
+- This project can only be used for **educational and academic purposes**.
+- Commercial use is strictly prohibited.
+- If you intend to use it for educational or academic purposes, you must include the owner's name and repository link.
+
+### Data Contribution
+
+- Students taking the course must work on a minimum of 10 and a maximum of 13 data entries.
+- If you wish to contribute more, please discuss with the owner.
+- For inquiries about contributions, contact the owner's email ([dhchoi.lazy@gmail.com](mailto:dhchoi.lazy@gmail.com)).
+- Recognized contributions will be differentially cited in academic papers.
+
 
 # 동아시아 신비한 동물 사전(Fantastic Beasts in East Asia)
 
