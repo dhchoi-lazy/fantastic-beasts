@@ -1,13 +1,11 @@
 {
-    "student_id": "송송",
-    "name": "도견",
-    "image": "images/dogien.png",
-    "image_prompt": "도견은 상상의 동물이다. 도견은 사람을 잡아먹으며 푸른색 개처럼 생겼다. 도견을 그려줘",
-    "animals": [
-        "개"
-    ],
-    "original": "蜪犬如犬，青，食人從首始。",
-    "translated": "도견은 개같이 생겼는데, 푸르고, 사람을 잡아먹는데 머리부터 먹는다.",
-    "source": "산해경",
-    "comment": "이 개를 길들인다면 어떨까?"
+  "student_id": "송송",
+  "name": "도견",
+  "image": "images/dogien.png",
+  "image_prompt": "도견은 상상의 동물이다. 도견은 사람을 잡아먹으며 푸른색 개처럼 생겼다. 도견을 그려줘",
+  "animals": ["개"],
+  "original": "蜪犬如犬，青，食人從首始。",
+  "translated": "도견은 개같이 생겼는데, 푸르고, 사람을 잡아먹는데 머리부터 먹는다.",
+  "source": "산해경",
+  "comment": "이 개를 길들인다면 어떨까?"
 }
